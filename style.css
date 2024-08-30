@@ -1,0 +1,34 @@
+.title{
+    color: red;
+}
+
+.main_div{
+
+    background-color: azure;
+    display: flex;
+    position: relative;
+}
+
+.main_ul{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    /* transform: translateX(-100%); */
+}
+
+.main_li{
+    padding: 2px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    margin: 0 10px;
+    justify-content: end;
+    list-style: none;
+    cursor: pointer;
+    /* width: 30px; */
+
+}
+
+.main_li:hover{
+    transition: .25s;
+    background-color: red;
+}
